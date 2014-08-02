@@ -1,11 +1,19 @@
 #!/bin/bash
+bold=`tput bold`
+normal=`tput sgr0`
 if [ "$#" == 2  ]; then
   act=$(echo $1)
   time=$(echo $2)
   space=" " 
   existent+="${act}${space}${time}"
   echo  $existent >> ".activities"
-else
-  echo "Activity Time"
+  printf "${bold}Activity saved. \nActivity Time${normal}\n"
   cat ".activities"
+
+elif [ "$#" == 0  ]; then
+  echo "${bold}Activity Time${normal}"
+  cat ".activities"
+
+else
+  printf "Arguments error. \n To save activities: bash schedule activity 1-2 \n To check activities: bash schedule \n"
 fi
