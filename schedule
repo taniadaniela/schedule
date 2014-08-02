@@ -1,0 +1,11 @@
+#!/bin/bash
+if [ "$#" == 2  ]; then
+  act=$(echo $1)
+  time=$(echo $2)
+  space=" " 
+  existent+="${act}${space}${time}"
+  echo  $existent >> ".activities"
+else
+  echo "Activity Time"
+  cat ".activities"
+fi
