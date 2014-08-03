@@ -1,9 +1,0 @@
-#!/bin/bash
-act=$(echo $1)
-time=$(echo $2)
-space=" " 
-enter="\r"
-existent=$(cat ".activities")
-existent+="${existent}${space}${act}${space}${time}"
-existent+=$""
-echo  $existent > ".activities"
