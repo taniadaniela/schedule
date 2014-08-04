@@ -12,23 +12,23 @@ This simple script let you save the things you have to do in the day, simple and
 <code>
 $ bash schedule shower 6-6.30
 </code>
-<code>
+<tt>
 **Activity saved.** \n
 **Activity Time** \n
 work 8to16 \n
 gym 17to18 \n
 movies 19-20 \n
 shower 6-6.30 \n
-</code>
+</tt>
 
 ## To check activities:
 <code>
 $ bash schedule
 </code>
-<code>
+<tt>
 **Activity Time**
 work 8to16 \n
 gym 17to18 \n
 movies 19-20 \n
 shower 6-6.30 \n
-</code>
+</tt>
