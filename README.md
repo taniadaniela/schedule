@@ -1,6 +1,6 @@
 # Schedule
 
-shedule script to save daily activities using the command line
+shedule is a bash script to save daily activities using the command line
 ========
 
 
