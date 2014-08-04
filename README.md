@@ -13,11 +13,12 @@ This simple script let you save the things you have to do in the day, simple and
 $ bash schedule shower 6-6.30
 </code>
 <code>
-Activity saved.
-Activity Time
-work 8to16gym 17to18
-movies 19-20
-shower 6-6.30
+**Activity saved.** \n
+**Activity Time** \n
+work 8to16 \n
+gym 17to18 \n
+movies 19-20 \n
+shower 6-6.30 \n
 </code>
 
 ## To check activities:
@@ -25,8 +26,9 @@ shower 6-6.30
 $ bash schedule
 </code>
 <code>
-Activity Time
-work 8to16gym 17to18
-movies 19-20
-shower 6-6.30
+**Activity Time**
+work 8to16 \n
+gym 17to18 \n
+movies 19-20 \n
+shower 6-6.30 \n
 </code>
